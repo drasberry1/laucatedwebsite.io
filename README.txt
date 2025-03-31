@@ -1,45 +1,29 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Engineering Fellowship Website
 
+## Overview
+This project is a simple and professional website for the Engineering Fellowship at Anderson University. The website introduces Professor James Wanliss, details his research interests, and lists members of the fellowship. It also provides links for staying connected and learning more about the fellowship.
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+## Files
+- **index.html**: The main webpage containing information about the fellowship.
+- **styles.css**: The CSS file that styles the website.
+- **about.html**: A separate page for additional details about the fellowship.
 
-- It's built with components from my Responsive Tools project.
+## Features
+- Clean and professional design
+- Responsive layout for different screen sizes
+- Links to an "About" page and LinkedIn profile
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+## How to Use
+1. Open `index.html` in a web browser.
+2. Navigate through the website using the provided links.
+3. Modify `styles.css` to customize the appearance as needed.
+4. Update `about.html` for additional information.
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
+## Future Enhancements
+- Add more interactive elements.
+- Improve accessibility and mobile responsiveness.
+- Include a contact form for inquiries.
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+## Author
+Developed for the Engineering Fellowship at Anderson University under the guidance of Professor James Wanliss.
 
-- A ton of other stuff.
-
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
