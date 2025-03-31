@@ -7,12 +7,17 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+.header {
+    border-top: 10px solid red; /* Thick red line at the top */
+    padding: 10px 0;
 }
 
 h1, h2 {
@@ -25,9 +30,28 @@ p {
 }
 
 .student-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 20px;
-    text-align: left;
-    display: inline-block;
+}
+
+.member {
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+.member p {
+    color: #333;
+    font-weight: bold;
 }
 
 .links {
