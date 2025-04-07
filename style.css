@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,54 +7,59 @@ body {
     text-align: center;
 }
 
+/* Header Banner */
+.header {
+    background-color: #c40000; /* deep red */
+    color: white;
+    padding: 40px 0;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Container */
 .container {
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 20px;
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
-.header {
-    border-top: 10px solid red; /* Thick red line at the top */
-    padding: 10px 0;
-}
-
+/* Text Styling */
 h1, h2 {
-    color: #333;
+    color: #111;
 }
-
-p {
-    color: #666;
+p, li {
+    color: #444;
     line-height: 1.6;
 }
 
+/* Student List Styling */
 .student-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .member {
+    width: 200px;
+    margin: 15px;
     text-align: center;
-    margin: 10px;
-    width: 150px;
 }
 
 .member img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    border: 2px solid #ccc;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 4px solid #c40000; /* thick red border */
 }
 
-.member p {
-    color: #333;
-    font-weight: bold;
-}
-
+/* Link Buttons */
 .links {
     margin-top: 20px;
 }
